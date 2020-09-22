@@ -1,0 +1,25 @@
+{
+  "name": "todo-v2",
+  "version": "1.0.0",
+  "description": "* [] Tab interface with left side nav     * [] Tabs consist of different todos for home, today, tomorrow, future * [] Date functionality on todos * [] Should show a list of completed todos per tab AND globally on a home page * [] Headings. How do I make that possible? * [] Depending on the page, todo gets added to that specific list     * [] Global list needs to hold all todos     * [] There should be a separate list for completed and not completed tasks",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "html-loader": "^1.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4"
+  }
+}

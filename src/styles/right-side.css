@@ -1,0 +1,51 @@
+@import url(./left-side.css);
+@import url(./checkbox.css);
+
+.todo-list-container {
+    grid-area: active-list;
+    height: 100vh;
+    width: 100%;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+.todo-list-title-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 0.5px solid black;
+    background-color: var(--color-bkg);
+}
+
+.task-count {
+    font-size: 0.7rem;
+    position: relative;
+    top: 8px;
+}
+
+.todos-container {
+    line-height: 2;
+    padding: 1rem;
+}
+
+.create-todos {
+    padding-left: 1rem;
+}
+
+.remove-todos {
+    padding-left: 1rem;
+}
+
+.delete {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.473);
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.delete:hover {
+    cursor: pointer;
+    background-color: var(--color-hover);
+}

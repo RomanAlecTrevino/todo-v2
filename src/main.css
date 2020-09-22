@@ -1,0 +1,39 @@
+@import url(./styles/left-side.css);
+@import url(./styles/right-side.css);
+@import url(./styles/checkbox.css);
+
+:root {
+    --color-main: #f4f4f4;
+    --color-bkg: #dadada;
+    --color-hover: #e9e9e9;
+    --highlight-color: rgba(2, 99, 2, 0.664);
+} 
+
+*, *::before, *::after {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    /** GRID **/
+    display: grid;
+    grid: 
+    "list-container active-list" auto / 
+    minmax(100px, 220px) minmax(200px, 400px);
+}
+
+form {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0;
+    background: 0;
+    border: 0;
+    font-size: 1rem;
+}
