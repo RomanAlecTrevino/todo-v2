@@ -7,6 +7,7 @@
     width: 100%;
     margin-left: 300px;
     margin-top: 15px;
+    border: 1px solid black;
 }
 
 .todo-list-title-section {
@@ -27,6 +28,7 @@
 .todos-container {
     line-height: 2;
     padding: 1rem;
+    padding-bottom: 0;
 }
 
 .create-todos {
@@ -35,6 +37,12 @@
 
 .remove-todos {
     padding-left: 1rem;
+    padding-top: 0.5rem;
+    width: 100%;
+}
+
+.remove-todos .delete .btn {
+    font-size: 0.2rem;
 }
 
 .delete {
